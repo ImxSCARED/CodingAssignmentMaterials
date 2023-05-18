@@ -1,0 +1,8 @@
+C:\Users\s215599\Desktop\Coding\VariableExcercise\VariableExcercise\obj\Debug\VariableExcercise.csproj.AssemblyReference.cache
+C:\Users\s215599\Desktop\Coding\VariableExcercise\VariableExcercise\obj\Debug\VariableExcercise.csproj.SuggestedBindingRedirects.cache
+C:\Users\s215599\Desktop\Coding\VariableExcercise\VariableExcercise\obj\Debug\VariableExcercise.csproj.CoreCompileInputs.cache
+C:\Users\s215599\Desktop\Coding\VariableExcercise\VariableExcercise\bin\Debug\VariableExcercise.exe.config
+C:\Users\s215599\Desktop\Coding\VariableExcercise\VariableExcercise\bin\Debug\VariableExcercise.exe
+C:\Users\s215599\Desktop\Coding\VariableExcercise\VariableExcercise\bin\Debug\VariableExcercise.pdb
+C:\Users\s215599\Desktop\Coding\VariableExcercise\VariableExcercise\obj\Debug\VariableExcercise.exe
+C:\Users\s215599\Desktop\Coding\VariableExcercise\VariableExcercise\obj\Debug\VariableExcercise.pdb

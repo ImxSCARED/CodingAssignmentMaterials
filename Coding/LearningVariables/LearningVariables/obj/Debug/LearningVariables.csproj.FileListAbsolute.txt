@@ -1,0 +1,8 @@
+C:\Users\s215599\Desktop\Coding\LearningVariables\LearningVariables\bin\Debug\LearningVariables.exe.config
+C:\Users\s215599\Desktop\Coding\LearningVariables\LearningVariables\bin\Debug\LearningVariables.exe
+C:\Users\s215599\Desktop\Coding\LearningVariables\LearningVariables\bin\Debug\LearningVariables.pdb
+C:\Users\s215599\Desktop\Coding\LearningVariables\LearningVariables\obj\Debug\LearningVariables.csproj.AssemblyReference.cache
+C:\Users\s215599\Desktop\Coding\LearningVariables\LearningVariables\obj\Debug\LearningVariables.csproj.SuggestedBindingRedirects.cache
+C:\Users\s215599\Desktop\Coding\LearningVariables\LearningVariables\obj\Debug\LearningVariables.csproj.CoreCompileInputs.cache
+C:\Users\s215599\Desktop\Coding\LearningVariables\LearningVariables\obj\Debug\LearningVariables.exe
+C:\Users\s215599\Desktop\Coding\LearningVariables\LearningVariables\obj\Debug\LearningVariables.pdb

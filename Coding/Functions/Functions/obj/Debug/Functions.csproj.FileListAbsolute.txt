@@ -1,0 +1,8 @@
+C:\Users\s215599\Desktop\Coding\Functions\Functions\bin\Debug\Functions.exe.config
+C:\Users\s215599\Desktop\Coding\Functions\Functions\bin\Debug\Functions.exe
+C:\Users\s215599\Desktop\Coding\Functions\Functions\bin\Debug\Functions.pdb
+C:\Users\s215599\Desktop\Coding\Functions\Functions\obj\Debug\Functions.csproj.AssemblyReference.cache
+C:\Users\s215599\Desktop\Coding\Functions\Functions\obj\Debug\Functions.csproj.SuggestedBindingRedirects.cache
+C:\Users\s215599\Desktop\Coding\Functions\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+C:\Users\s215599\Desktop\Coding\Functions\Functions\obj\Debug\Functions.exe
+C:\Users\s215599\Desktop\Coding\Functions\Functions\obj\Debug\Functions.pdb
