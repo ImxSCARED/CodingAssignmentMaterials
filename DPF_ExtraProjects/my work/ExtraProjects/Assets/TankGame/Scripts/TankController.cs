@@ -9,6 +9,7 @@ public class TankController : MonoBehaviour
     public float forwardSpeed = 0.1f;
     public float backwardSpeed = 0.08f;
     public float rotationalSpeed = 2f;
+    public float jumpHeight = 1f;
 
     [Header("TurretRotation")]
     public float turretRotationalSpeed = 3f;
@@ -21,14 +22,15 @@ public class TankController : MonoBehaviour
     public Transform shellSpawnPoint;
 
 
-    [Header("Player one Controls")]
+    [Header("Player Controls")]
     public KeyCode forwardsKey = KeyCode.W;
     public KeyCode backwardsKey = KeyCode.S;
     public KeyCode rotateLeftKey = KeyCode.A;
     public KeyCode RotateRightkey = KeyCode.D;
     public KeyCode rotateTurretLeftKey = KeyCode.Q;
     public KeyCode rotateturretRightKey = KeyCode.E;
-    public KeyCode fireKey = KeyCode.Space;
+    public KeyCode fireKey = KeyCode.V;
+    public KeyCode jumpKey = KeyCode.Space;
 
     [Header("Health")]
     public int health = 100;
@@ -62,7 +64,8 @@ public class TankController : MonoBehaviour
             GameObject GO = Instantiate(ShellPrefab, shellSpawnPoint.position, Quaternion.identity) as GameObject;
             GO.GetComponent<Rigidbody>().AddForce(turret.transform.forward * shellSpeed, ForceMode.Impulse);
         }
-        
+      
+
     }
      void FixedUpdate()
     {
@@ -90,5 +93,10 @@ public class TankController : MonoBehaviour
         {
             transform.Rotate(transform.up * rotationalSpeed);
         }
+        if (Input.GetKeyDown(jumpKey))
+        {
+            transform.position = transform.position + transform.up * jumpHeight;
+        }
+
     }
 }

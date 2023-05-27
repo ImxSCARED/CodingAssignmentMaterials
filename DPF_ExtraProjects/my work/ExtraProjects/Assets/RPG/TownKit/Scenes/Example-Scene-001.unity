@@ -17386,8 +17386,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433829318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.54, y: -0.23, z: 0.16}
-  m_LocalScale: {x: 27.963326, y: 4.403, z: 12.304184}
+  m_LocalPosition: {x: 4.92, y: -0.23, z: 0.16}
+  m_LocalScale: {x: 11.29243, y: 4.403, z: 12.304184}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -17405,7 +17405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cc7ae84aec80364eb78c10a1dad2ca1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageToShow: This is a well
+  messageToShow: MAGIC HOUSE!!
   messageDuration: 3
 --- !u!114 &433829325
 MonoBehaviour:
@@ -17434,7 +17434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToActivate: {fileID: 365375608}
-  interactDelay: 3
+  interactDelay: 1
 --- !u!4 &435953874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4801479445059956, guid: 8f06b089da4511c46be2758cf10cc160, type: 3}
@@ -25148,7 +25148,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &609359104
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -25165,7 +25165,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &609359105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27391,7 +27392,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &663199966
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -27408,7 +27409,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &663385141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55605,6 +55607,7 @@ MonoBehaviour:
   forwardSpeed: 0.25
   backwardSpeed: 0.11
   rotationalSpeed: 2
+  jumpHeight: 5
   turretRotationalSpeed: 0.2
   turret: {fileID: 301632933}
   shellSpeed: 20
@@ -55616,7 +55619,8 @@ MonoBehaviour:
   RotateRightkey: 100
   rotateTurretLeftKey: 113
   rotateturretRightKey: 101
-  fireKey: 32
+  fireKey: 118
+  jumpKey: 32
   health: 100
   Health: {fileID: 579304046}
 --- !u!65 &1296300232
@@ -69597,15 +69601,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624859802}
-  m_LocalRotation: {x: -0.030285677, y: -0.00898707, z: -0.008987071, w: 0.9994605}
-  m_LocalPosition: {x: 0.05, y: 0.92, z: -0.08}
+  m_LocalRotation: {x: 0.00007615118, y: -0.008726132, z: -0.008726132, w: 0.9999238}
+  m_LocalPosition: {x: 0.050001796, y: 0.82, z: 0.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1651380930}
   m_Father: {fileID: 301632934}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -3.48, y: -1, z: -1}
+  m_LocalEulerAnglesHint: {x: 0, y: -1, z: -1}
 --- !u!81 &1624859804
 AudioListener:
   m_ObjectHideFlags: 0
