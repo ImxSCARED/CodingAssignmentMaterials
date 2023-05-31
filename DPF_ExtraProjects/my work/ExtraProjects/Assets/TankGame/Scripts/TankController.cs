@@ -31,6 +31,7 @@ public class TankController : MonoBehaviour
     public KeyCode rotateturretRightKey = KeyCode.E;
     public KeyCode fireKey = KeyCode.V;
     public KeyCode jumpKey = KeyCode.Space;
+    public KeyCode SprintKey = KeyCode.LeftShift;
 
     [Header("Health")]
     public int health = 100;
@@ -69,6 +70,11 @@ public class TankController : MonoBehaviour
     }
      void FixedUpdate()
     {
+        
+        if (Input.GetKey(jumpKey))
+        {
+            gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up * 50);
+        }
         if (Input.GetKey(rotateTurretLeftKey))
         {
             turret.transform.Rotate(0, -turretRotationalSpeed, 0, Space.Self);
@@ -80,6 +86,11 @@ public class TankController : MonoBehaviour
         if (Input.GetKey(forwardsKey))
         {
             transform.position = transform.position + transform.forward * forwardSpeed;
+
+            if (Input.GetKey(SprintKey))
+            {
+                transform.position = transform.position + transform.forward * forwardSpeed;
+            }
         }
         if (Input.GetKey(backwardsKey))
         {
@@ -93,10 +104,7 @@ public class TankController : MonoBehaviour
         {
             transform.Rotate(transform.up * rotationalSpeed);
         }
-        if (Input.GetKeyDown(jumpKey))
-        {
-            transform.position = transform.position + transform.up * jumpHeight;
-        }
+       
 
     }
 }
