@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode jumpKey = KeyCode.Space;
     public KeyCode sprintKey = KeyCode.LeftShift;
 
+    bool sprint;
+
 
 
     [Header("ground check")]
@@ -83,14 +85,21 @@ public class PlayerMovement : MonoBehaviour
         moveDirection = orientation.forward * VerticalInput + orientation.right * horizontalInput;
        if (grounded)
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
-       if(grounded && Input.GetKey(sprintKey))
-        { 
-                rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+        sprint = false;
+
+        //sprint
+        if (grounded && Input.GetKey(sprintKey))
+        {
+            sprint = true;
+            rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
         }
 
-       //in air
-       else if (!grounded)
+        //in air
+        else if (!grounded)
+        {
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
+            sprint = false;
+        }
     }
 
     private void SpeedControl()

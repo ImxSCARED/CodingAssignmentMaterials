@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class AIController : MonoBehaviour
 {
@@ -37,6 +38,10 @@ public class AIController : MonoBehaviour
     public Light myLight;
     public Color myLightColour;
 
+    //audio
+    public AudioSource  source;
+    public AudioClip clip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +76,8 @@ public class AIController : MonoBehaviour
             ren = GetComponent<Renderer>();
             ren.material.color = Color.red;
             myLight.color = myLightColour;
+            
+            
 
 
 
@@ -239,6 +246,13 @@ public class AIController : MonoBehaviour
             {
                 m_PLayerPosition = player.transform.position;
             }
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            SceneManager.LoadScene((int)SceneIndexes.DeathLobby);
         }
     }
 }

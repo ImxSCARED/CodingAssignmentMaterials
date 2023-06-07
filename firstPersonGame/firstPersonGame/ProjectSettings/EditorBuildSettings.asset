@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LobbyMaze1Complete.unity
     guid: 56619ab14ab2f3f4d9a3b0bd75f7eae6
+  - enabled: 1
+    path: Assets/Scenes/DeathLobby.unity
+    guid: e3250e87a304f1742ab8f931dcf396e3
   m_configObjects: {}

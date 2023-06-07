@@ -8,6 +8,7 @@ public enum SceneIndexes
     Lobby = 1,
     Maze_1 = 2,
     Maze_2 = 3,
-    LobbyMaze1Complete = 4
+    LobbyMaze1Complete = 4,
+    DeathLobby = 5
 
 }
