@@ -56,9 +56,13 @@ public class PlayerMovement : MonoBehaviour
 
         //no one likes drag.. lets get rid of it
         if (grounded)
+        {
             rb.drag = groundDrag;
+        }
         else
+        {
             rb.drag = 0;
+        }
     }
     private void FixedUpdate()
     {

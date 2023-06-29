@@ -76,12 +76,6 @@ public class AIController : MonoBehaviour
             ren = GetComponent<Renderer>();
             ren.material.color = Color.red;
             myLight.color = myLightColour;
-            
-            
-
-
-
-
         }
         else
         {
